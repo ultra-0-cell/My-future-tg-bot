@@ -1,0 +1,8 @@
+app = "your-app-name"  # Replace this with your Fly.io app name
+primary_region = "sin"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  PYTHONUNBUFFERED = "1"
